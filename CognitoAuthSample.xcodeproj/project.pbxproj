@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2531179A8ACC8503C34484E6 /* Pods_CognitoAuthSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 280FF550C21F9E092D6CEA42 /* Pods_CognitoAuthSample.framework */; };
 		8321B30325A639650047BF39 /* CognitoAuthSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8321B30225A639650047BF39 /* CognitoAuthSampleApp.swift */; };
 		8321B30525A639650047BF39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8321B30425A639650047BF39 /* ContentView.swift */; };
 		8321B30725A639660047BF39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8321B30625A639660047BF39 /* Assets.xcassets */; };
 		8321B30A25A639660047BF39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8321B30925A639660047BF39 /* Preview Assets.xcassets */; };
+		1F0879B4DF3D482FB38176B5 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C63D89980DC4217A4EA03AD /* amplifyconfiguration.json */; };
+		A4A99CD0BB694BDD8A6FEB14 /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 67E65720013C4039A4DEB87A /* awsconfiguration.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		280FF550C21F9E092D6CEA42 /* Pods_CognitoAuthSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CognitoAuthSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8321B2FF25A639650047BF39 /* CognitoAuthSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CognitoAuthSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8321B30225A639650047BF39 /* CognitoAuthSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CognitoAuthSampleApp.swift; sourceTree = "<group>"; };
 		8321B30425A639650047BF39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8321B30625A639660047BF39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8321B30925A639660047BF39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8321B30B25A639660047BF39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94A2A508070CE677693DF533 /* Pods-CognitoAuthSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CognitoAuthSample.debug.xcconfig"; path = "Target Support Files/Pods-CognitoAuthSample/Pods-CognitoAuthSample.debug.xcconfig"; sourceTree = "<group>"; };
+		E3B04C9E8F3AC5696F3E408D /* Pods-CognitoAuthSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CognitoAuthSample.release.xcconfig"; path = "Target Support Files/Pods-CognitoAuthSample/Pods-CognitoAuthSample.release.xcconfig"; sourceTree = "<group>"; };
+		53E0D89BFB87457B86A2E89D /* amplifytools.xcconfig */ = {isa = PBXFileReference; name = "amplifytools.xcconfig"; path = "amplifytools.xcconfig"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text.xcconfig; explicitFileType = undefined; includeInIndex = 0; };
+		7C63D89980DC4217A4EA03AD /* amplifyconfiguration.json */ = {isa = PBXFileReference; name = "amplifyconfiguration.json"; path = "amplifyconfiguration.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		67E65720013C4039A4DEB87A /* awsconfiguration.json */ = {isa = PBXFileReference; name = "awsconfiguration.json"; path = "awsconfiguration.json"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2EEA97B41CF84811A1740C56 /* schema.graphql */ = {isa = PBXFileReference; name = "schema.graphql"; path = "amplify/backend/api/amplifyDatasource/schema.graphql"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = text; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +37,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2531179A8ACC8503C34484E6 /* Pods_CognitoAuthSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D216C03F0333BD9543CBA7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94A2A508070CE677693DF533 /* Pods-CognitoAuthSample.debug.xcconfig */,
+				E3B04C9E8F3AC5696F3E408D /* Pods-CognitoAuthSample.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		560CDC8BF2B1A7BE87D96FC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				280FF550C21F9E092D6CEA42 /* Pods_CognitoAuthSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8321B2F625A639650047BF39 = {
 			isa = PBXGroup;
 			children = (
+				078A5296BBC6444C81F9E1F2 /* AmplifyConfig */,
 				8321B30125A639650047BF39 /* CognitoAuthSample */,
 				8321B30025A639650047BF39 /* Products */,
+				0D216C03F0333BD9543CBA7F /* Pods */,
+				560CDC8BF2B1A7BE87D96FC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +101,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		078A5296BBC6444C81F9E1F2 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				53E0D89BFB87457B86A2E89D /* amplifytools.xcconfig */,
+				7C63D89980DC4217A4EA03AD /* amplifyconfiguration.json */,
+				67E65720013C4039A4DEB87A /* awsconfiguration.json */,
+				2EEA97B41CF84811A1740C56 /* schema.graphql */,
+			);
+			name = AmplifyConfig;
+			path = .;
+			sourceTree = "<group>";
+		};
+		5FB41B9B45764E04B41825E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			path = undefined;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8321B30E25A639660047BF39 /* Build configuration list for PBXNativeTarget "CognitoAuthSample" */;
 			buildPhases = (
+				29A2306E27154A0A7A7F22E2 /* [CP] Check Pods Manifest.lock */,
 				8321B2FB25A639650047BF39 /* Sources */,
 				8321B2FC25A639650047BF39 /* Frameworks */,
 				8321B2FD25A639650047BF39 /* Resources */,
+				A1D561EFCEF4EE8B19DC5B0B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,10 +182,54 @@
 			files = (
 				8321B30A25A639660047BF39 /* Preview Assets.xcassets in Resources */,
 				8321B30725A639660047BF39 /* Assets.xcassets in Resources */,
+				1F0879B4DF3D482FB38176B5 /* amplifyconfiguration.json in Resources */,
+				A4A99CD0BB694BDD8A6FEB14 /* awsconfiguration.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29A2306E27154A0A7A7F22E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CognitoAuthSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1D561EFCEF4EE8B19DC5B0B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CognitoAuthSample/Pods-CognitoAuthSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CognitoAuthSample/Pods-CognitoAuthSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CognitoAuthSample/Pods-CognitoAuthSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8321B2FB25A639650047BF39 /* Sources */ = {
@@ -264,6 +362,7 @@
 		};
 		8321B30F25A639660047BF39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94A2A508070CE677693DF533 /* Pods-CognitoAuthSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +385,7 @@
 		};
 		8321B31025A639660047BF39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3B04C9E8F3AC5696F3E408D /* Pods-CognitoAuthSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
